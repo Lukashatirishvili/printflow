@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintFlow.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintFlow.Api", "PrintFlow.Api\PrintFlow.Api.csproj", "{5BE904D1-C137-4B24-976D-DEFFD9AF151D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C4D1861-E571-4ADC-A7B3-8283D1B09162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintFlow.Domain.UnitTests", "PrintFlow.Domain.UnitTests\PrintFlow.Domain.UnitTests.csproj", "{CD01E161-05EF-40F0-9692-C35DFBEF7D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,7 @@ Global
 		{87525503-A17B-4B46-A28A-BD9B2FA67FDD} = {6090EABC-ADB9-4170-B90D-F95BBF80A7D8}
 		{5089A744-CF79-4601-A9B3-B1AFE7D087B1} = {6090EABC-ADB9-4170-B90D-F95BBF80A7D8}
 		{5BE904D1-C137-4B24-976D-DEFFD9AF151D} = {6090EABC-ADB9-4170-B90D-F95BBF80A7D8}
+		{CD01E161-05EF-40F0-9692-C35DFBEF7D54} = {8C4D1861-E571-4ADC-A7B3-8283D1B09162}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3676EBCC-136A-491C-9C5D-AD584ECAD543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +43,9 @@ Global
 		{5BE904D1-C137-4B24-976D-DEFFD9AF151D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BE904D1-C137-4B24-976D-DEFFD9AF151D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BE904D1-C137-4B24-976D-DEFFD9AF151D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD01E161-05EF-40F0-9692-C35DFBEF7D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD01E161-05EF-40F0-9692-C35DFBEF7D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD01E161-05EF-40F0-9692-C35DFBEF7D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD01E161-05EF-40F0-9692-C35DFBEF7D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
